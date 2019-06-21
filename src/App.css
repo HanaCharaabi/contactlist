@@ -1,0 +1,47 @@
+.appp{
+  display: flex;
+  justify-content: space-around;
+  background: rgb(224, 119, 119);padding: 10px;
+  height: 50px;
+}
+.none{display: none}
+.meme{display: flex;
+justify-content: space-between;}
+.meme>*{margin: 0 20px;text-decoration: none;color:white}
+.meme>*:hover{background: rgba(29, 24, 24, 0.767);font-size: 20px;}
+.class2{display:none}
+.class1{display: flex;flex-direction: column;align-items: center; background: #282c34;height: 100vh;position: absolute;width: 100%;top: 0}
+.close{
+  background-color: gray;
+  border-radius: 10px;
+  color: red;
+  font-size:24px; 
+  padding: 10px;
+  margin: 10px
+}
+.btns{
+  display: flex;
+  justify-content: space-between
+}
+.btn {
+  cursor: pointer;
+
+  border: none;
+  border-radius: 8px;
+
+  box-shadow: 2px 2px 7px #38d39f70;
+
+  background: #38d39f;
+  color: rgba(255, 255, 255, 0.8);
+
+  width: 100px;
+  margin:5px;
+
+  transition: all 1s;
+}
+
+.btn:hover {
+  color: rgb(255, 255, 255);
+
+  box-shadow: none;
+}
